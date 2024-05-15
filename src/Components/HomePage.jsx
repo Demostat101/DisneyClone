@@ -40,12 +40,12 @@ let HomePage = () => {
     
                                 <ul>
     
-                                    <li onClick={handleClickChange}><a  href="#">{val.head}</a></li>
-                                    <li onClick={handleClickChange}><a href="#">{val.find}</a></li>
-                                    <li onClick={handleClickChange}><a href="#">{val.intro}</a></li>
-                                    <li onClick={handleClickChange}><a href="#">{val.watch}</a></li>
-                                    <li onClick={handleClickChange}><a href="#">{val.marvel}</a></li>
-                                    <li onClick={handleClickChange}><a href="#">{val.national}</a></li>
+                                    <li ><a onClick={handleClickChange} href="#">{val.head}</a></li>
+                                    <li ><a onClick={handleClickChange} href="#">{val.find}</a></li>
+                                    <li ><a onClick={handleClickChange} href="#">{val.intro}</a></li>
+                                    <li ><a onClick={handleClickChange} href="#">{val.watch}</a></li>
+                                    <li ><a onClick={handleClickChange} href="#">{val.marvel}</a></li>
+                                    <li ><a onClick={handleClickChange} href="#">{val.national}</a></li>
 
                                 </ul>
     
