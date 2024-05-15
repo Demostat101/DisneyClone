@@ -4,8 +4,8 @@ import MenuClose from "../assets/icon-close.svg"
 import DisneyLogo from "../assets/disney_logo.png"
 import Swift from "../assets/swift.png"
 import { HomePageStorage } from "./Storage"
-import { useState } from "react"
 import { menuContext } from "../contextFolder/Context"
+import OriginalTaylor from "../assets/OriginalTaylor.jpg"
 
 let HomePage = () => {
 
@@ -65,7 +65,7 @@ let HomePage = () => {
             <div className="HomeImages">
 
                 <div className="imageContainer">
-                    <div className="child backGroundImage"><img className="taylorImage" src="src/assets/OriginalTaylor.jpg" alt="" /></div>
+                    <div className="child backGroundImage"><img className="taylorImage" src={OriginalTaylor} alt="" /></div>
                 </div>
 
                 <div className="textLogo">
